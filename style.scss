@@ -39,7 +39,56 @@
 .tel1{
     display: none;
 }
+.box1{
+    color: #14456a;
+    .pp2{
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 60px;
+    }
+    .pp3{
+        line-height: 30px;
+        font-size: 23px;
+        color: black;
+    }
+}
+.pp1{
+    font-size: 40px;
+}
+
+.ddr1{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+}
 @media(max-width:600px){
+    .veb{
+        display: none;
+    }
+    .tel1{
+    }
+    .ddr1{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        .pp1{
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        .pp2{
+            font-size: 30px;
+            line-height: 35px;
+            margin-top: 10px;
+        }
+        .pp3{
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
     .nav1{
         display: none;
     }
