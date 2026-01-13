@@ -15,7 +15,8 @@
         display: flex;
         gap: 30px;
         align-items: center;
-        h2{
+
+        h2 {
             font-weight: 400;
         }
     }
@@ -36,29 +37,34 @@
 .h11 {
     font-weight: 700;
 }
-.tel1{
+
+.tel1 {
     display: none;
 }
-.box1{
+
+.box1 {
     color: #14456a;
-    .pp2{
+
+    .pp2 {
         font-size: 50px;
         font-weight: 700;
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 60px;
     }
-    .pp3{
+
+    .pp3 {
         line-height: 30px;
         font-size: 23px;
         color: black;
     }
 }
-.pp1{
+
+.pp1 {
     font-size: 40px;
 }
 
-.ddr1{
+.ddr1 {
     max-width: 1200px;
     display: flex;
     align-items: center;
@@ -66,33 +72,75 @@
     margin: auto;
     margin-top: 100px;
 }
-@media(max-width:600px){
-    .veb{
+
+.box2 {
+    width: 347px;
+    height: 280px;
+    border-radius: 13px;
+    box-shadow: 0px 3px 10px gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .pp4{
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pp5{
+        font-size: 18px;
+    }
+}
+.box3{
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    display: flex;
+}
+
+
+@media(max-width:600px) {
+    .box3{
+        flex-direction: column;
+    }
+    .box2{
+        margin-top: 30px;
+    }
+    .veb {
         display: none;
     }
-    .tel1{
-    }
-    .ddr1{
+
+
+    .ddr1 {
         flex-direction: column-reverse;
         margin-top: 40px;
-        .pp1{
+
+        .pp1 {
             font-size: 30px;
             margin-top: 20px;
         }
-        .pp2{
+
+        .pp2 {
             font-size: 30px;
             line-height: 35px;
             margin-top: 10px;
         }
-        .pp3{
+
+        .pp3 {
             font-size: 14px;
             line-height: 20px;
         }
     }
-    .nav1{
+
+    .nav1 {
         display: none;
     }
-    .tel1{
+
+    .tel1 {
         display: flex;
         align-items: center;
         justify-content: space-between;
